@@ -32,7 +32,7 @@ def saveImg(html):
         urllib.urlretrieve(imgurl, '%s_%s.jpg' % (page, x))
         x += 1
 
-page = 21
+page = 1
 while page < 36:
     url = "http://tieba.baidu.com/p/3956908596?pn="+str(page)
     page +=1
